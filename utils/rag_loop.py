@@ -8,7 +8,7 @@ from neo4j import GraphDatabase
 def get_openai_llm(api_key, model, temperature, max_tokens):
     return ChatOpenAI(openai_api_key=api_key, model=model, temperature=temperature, max_tokens=max_tokens)
 
-def process_query(session_id: str, query: str, model: str, cypher_prompt, kg_prompt, compile_prompt, schema, temperature, max_tokens, generate_kg: bool):
+def process_query(session_id: str, query: str, model: str, cypher_prompt, kg_prompt, compile_prompt, driver, schema, temperature, max_tokens, generate_kg: bool):
     # Initialize LLMs
     llm = get_openai_llm(st.secrets["OPENAI_API_KEY"], model, temperature, max_tokens)
     cypher_chain = LLMChain(llm=llm, prompt=cypher_prompt)
