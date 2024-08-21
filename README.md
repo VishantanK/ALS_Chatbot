@@ -84,9 +84,9 @@ The repository is structured as follows:
 
 Links:
 
-Chatbot Link : <[https://test-bot-n23.streamlit.app/](https://n23-chatbot-als.streamlit.app/)>
+Chatbot Link : [https://test-bot-n23.streamlit.app/](https://n23-chatbot-als.streamlit.app/)
 
-Github Repo : <[https://github.com/VishantanK/Chatbot-Test/tree/VishantanK-patch-1](https://github.com/VishantanK/ALS_Chatbot)>
+Github Repo : [https://github.com/VishantanK/Chatbot-Test/tree/VishantanK-patch-1](https://github.com/VishantanK/ALS_Chatbot)
 
 Visualization Browser : <http://35.203.6.204:7474/browser/>
 
