@@ -1,4 +1,4 @@
-# ALS_Chatbot
+# ALS Chatbot
 
 1. **Introduction**
 
