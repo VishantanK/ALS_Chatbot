@@ -26,9 +26,9 @@ The components of the Chatbot can be are as follows:
 
 The backbone of the Knowledge Base. A graph has 3 primary components
 
-1. Nodes**:** Subjects of the study. In the context of target discovery, they can map the genes, proteins, ontologies, diseases, phenotypes etc.**     
-1. Relationships : Form the edges of the graph, mapping out the type of connection between 2 nodes.
-1. Properties : Both Nodes and Relationships can have their own properties which are specific to that data-type. Used to include additional information such as IDs, scores etc.
+* Nodes: Subjects of the study. In the context of target discovery, they can map the genes, proteins, ontologies, diseases, phenotypes etc.**     
+* Relationships : Form the edges of the graph, mapping out the type of connection between 2 nodes.
+* Properties : Both Nodes and Relationships can have their own properties which are specific to that data-type. Used to include additional information such as IDs, scores etc.
 
 The graph database is hosted on the Cloud using the Neo4j database system.
 
@@ -56,7 +56,7 @@ For users who need to see the relationships and data retrieved from the knowledg
 
 ### 4. **Graph Structure**
 
-![](graph_Schema.png)
+![Here](graph_Schema.png)
 
 
 
