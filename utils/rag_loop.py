@@ -10,7 +10,7 @@ def get_openai_llm(api_key, model, temperature, max_tokens):
 
 def process_query(session_id: str, query: str, model: str, cypher_prompt, kg_prompt, compile_prompt, schema, generate_kg: bool):
     # Initialize LLMs
-    llm = get_openai_llm(st.secrets["OPENAI_API_KEY"], model, temperature, max_tokens)
+    llm = get_openai_llm(st.secrets["OPENAI_API_KEY"], model)
     cypher_chain = LLMChain(llm=llm, prompt=cypher_prompt)
     kg_chain = LLMChain(llm=llm, prompt=kg_prompt)
     compile_chain = LLMChain(llm=llm, prompt=compile_prompt)
