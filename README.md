@@ -4,9 +4,7 @@
 
 GraphRAG involves the use of Knowledge Graphs to supplement the knowledge base of a traditional Large Language Model. Unlike traditional RAG models that rely on unstructured text data for retrieval, it leverages the structured, relational nature of graph databases to provide contextually rich and highly relevant information during the generation process.
 
-![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 003](https://github.com/user-attachments/assets/2c189840-6d6f-49a0-ac3c-936be952b051)
-![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 002](https://github.com/user-attachments/assets/6c8b7463-d0bf-41d4-8626-7808e88f2d1a)
-![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 001](https://github.com/user-attachments/assets/df8346fb-c0ef-461c-8b25-5b53df354ee2)
+<img width="1165" alt="Screenshot 2024-08-21 at 1 31 27 PM" src="https://github.com/user-attachments/assets/6e84d6c9-114d-444f-a186-f7dd97092a90">
 
 
 ### 2. **Working Principle**
@@ -60,7 +58,8 @@ For users who need to see the relationships and data retrieved from the knowledg
 ### 4. **Graph Structure**
 
 
-![graph_schema](https://github.com/user-attachments/assets/1ea5bce7-412d-4c6f-968e-5a005228e181)
+<img width="1190" alt="Screenshot 2024-08-21 at 1 31 01 PM" src="https://github.com/user-attachments/assets/d2a00adc-7627-4195-a358-57df4c5189f8">
+
 
 
 ### 5. **Code Structure**
