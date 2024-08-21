@@ -63,6 +63,6 @@ if prompt := st.chat_input("Ask a question about bioinformatics"):
     
     with st.chat_message("assistant"):
         context = get_context(session_id)
-        full_response = process_query(session_id, prompt, model, cypher_generation_prompt, kg_generation_prompt, compile_prompt, schema, temperature, max_tokens, generate_kg)
+        full_response = process_query(session_id, prompt, model, cypher_generation_prompt, kg_generation_prompt, compile_prompt, driver, schema, temperature, max_tokens, generate_kg)
         st.session_state.messages.append({"role": "assistant", "content": full_response})
         store_context(session_id, prompt, full_response)
