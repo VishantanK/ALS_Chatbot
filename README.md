@@ -4,6 +4,9 @@
 
 GraphRAG involves the use of Knowledge Graphs to supplement the knowledge base of a traditional Large Language Model. Unlike traditional RAG models that rely on unstructured text data for retrieval, it leverages the structured, relational nature of graph databases to provide contextually rich and highly relevant information during the generation process.
 
+![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 003](https://github.com/user-attachments/assets/2c189840-6d6f-49a0-ac3c-936be952b051)
+![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 002](https://github.com/user-attachments/assets/6c8b7463-d0bf-41d4-8626-7808e88f2d1a)
+![Aspose Words 63fb0cfe-1a89-493a-9716-52cfa569a039 001](https://github.com/user-attachments/assets/df8346fb-c0ef-461c-8b25-5b53df354ee2)
 
 
 ### 2. **Working Principle**
@@ -56,8 +59,8 @@ For users who need to see the relationships and data retrieved from the knowledg
 
 ### 4. **Graph Structure**
 
-![Here](graph_Schema.png)
 
+![graph_schema](https://github.com/user-attachments/assets/1ea5bce7-412d-4c6f-968e-5a005228e181)
 
 
 ### 5. **Code Structure**
